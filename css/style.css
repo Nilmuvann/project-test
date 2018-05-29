@@ -16,7 +16,7 @@ body{
   box-sizing: border-box;
   margin: 0 1.5rem;
   padding: 0 1.5rem;
-  width: 576px;
+  width: 57.6rem;
 }
 
 .container-fluid{
@@ -39,10 +39,10 @@ body{
   display: flex;
   text-decoration: none;
 }
-
-.navbar-top a img{
+/* 
+.navbar-top > a > img{
   width:50%;
-}
+} */
 
 .navbar-top > a > spam{
   color: #333333;
@@ -51,4 +51,29 @@ body{
   font-weight: 600;
   padding-left: 1.5rem;
   text-decoration: none;
+}
+
+.slider-container{
+  padding: 0;     
+}
+
+.main-container{
+  background-color: #fff;
+}
+
+.main-container > article > header > h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.main-container > article > header >p{
+  display: flex;
+  justify-content: center;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-weight: 400;
+  color: #333;
 }
