@@ -1,0 +1,54 @@
+html{ 
+  font-size: 62.5%; /* To jest 10px */
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #333333;
+  font-weight: 400;
+}
+
+body{
+  background: #D8D8D8;
+}
+
+.hidden{
+  display: none;
+}
+.container{
+  box-sizing: border-box;
+  margin: 0 1.5rem;
+  padding: 0 1.5rem;
+  width: 576px;
+}
+
+.container-fluid{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar-top-container-fluid{
+  background: #fff;
+}
+
+.navbar-top-container{
+  align-items: center;
+  display: flex;
+  height: 5rem; /* To jest 50 px */
+}
+
+.navbar-top a{
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar-top a img{
+  width:50%;
+}
+
+.navbar-top > a > spam{
+  color: #333333;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-left: 1.5rem;
+  text-decoration: none;
+}
